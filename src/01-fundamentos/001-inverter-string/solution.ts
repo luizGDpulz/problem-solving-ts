@@ -5,7 +5,9 @@
  * @returns Nova string com os caracteres na ordem inversa
  */
 export function inverterString(texto: string): string {
-  // TODO: Sua lógica entra aqui!
-  // Dica: Pense em acumular os caracteres percorrendo a string.
-  return '';
+  let textoInverso = '';
+  for (let i = texto.length -1; i >= 0; i--) {
+    textoInverso += texto[i];
+  }
+  return textoInverso;
 }
