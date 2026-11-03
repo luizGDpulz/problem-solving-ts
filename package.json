@@ -1,0 +1,26 @@
+{
+  "name": "algoritmos-e-logica",
+  "version": "1.0.0",
+  "description": "Jornada prática de lógica de programação, algoritmos e estruturas de dados em TypeScript.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "typescript",
+    "algorithms",
+    "data-structures",
+    "problem-solving",
+    "logic",
+    "vitest"
+  ],
+  "author": "Luiz Pulz",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}
