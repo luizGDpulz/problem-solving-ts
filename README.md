@@ -1,60 +1,58 @@
-# 🧠 Algoritmos & Lógica de Programação com TypeScript
+# 🧠 Problem Solving in TypeScript (`problem-solving-ts`)
 
-> **Jornada de Fortalecimento de Lógica e Estruturas de Dados**  
-> *"Não terceirizar o pensamento básico para a IA: treinar o músculo da lógica na prática com TDD, complexidade algorítmica e TypeScript puro."*
-
----
-
-## 🎯 Sobre o Projeto
-
-Este repositório documenta minha evolução contínua em algoritmos, resolução de problemas (*problem-solving*) e estruturas de dados. 
-
-Aqui, cada desafio segue um fluxo rigoroso:
-1. **Teoria & TypeScript Primeiro:** Compreensão profunda dos conceitos de tipos e comportamento da linguagem antes do código.
-2. **Desenho & Raciocínio (Zero IA na solução):** O algoritmo é concebido no papel/lógica antes da implementação.
-3. **TDD (Test-Driven Development):** Toda solução nasce acompanhada de uma suíte de testes unitários com casos triviais e cenários de borda (*edge cases*).
-4. **Análise de Complexidade:** Avaliação formal de complexidade de Tempo e Espaço (Notação Big-O).
-5. **Commits Atômicos & Issues:** Cada desafio é rastreado por uma Issue dedicada e commits semânticos no GitHub.
+> **Strengthening Algorithmic Logic & Data Structures**  
+> *"Don't outsource baseline thinking to AI: train raw problem-solving muscle through TDD, Big-O analysis, and pure TypeScript."*
 
 ---
 
-## 🗺️ Trilha de Progressão
+## 🎯 About the Project
 
-| Nível | Fase | Foco Principal |
+This repository documents my continuous journey in algorithms, problem-solving, and data structures.
+
+Every challenge follows a clear flow:
+1. **TypeScript Concepts & Theory:** Understanding language specifics, typing nuances, and memory behavior.
+2. **Raw Logic (Zero AI code generation):** Working through edge cases and whiteboard/paper breakdown first.
+3. **TDD (Test-Driven Development):** Unit tests with Vitest covering standard inputs and subtle edge cases.
+4. **Complexity Analysis:** Big-O notation for Time and Space.
+5. **Atomic Commits & GitHub Issues:** Each problem is tied to a tracked Issue and clean semantic commits.
+
+---
+
+## 🗺️ Progression Roadmap
+
+| Phase | Category | Focus |
 | :---: | :--- | :--- |
-| **01** | **Fundamentos & Manipulação Crua** | Strings, Arrays, Loops, Contadores, Condições de Borda |
-| **02** | **Dois Ponteiros & Janela Deslizante** | *Two Pointers*, *Sliding Window*, Redução de $O(n^2)$ para $O(n)$ |
-| **03** | **Estruturas de Dados Lineares** | Hash Maps, Pilhas (*Stacks*), Filas (*Queues*) |
-| **04** | **Recursão & Busca** | Busca Binária, Divisão e Conquista, Recursão pura |
-| **05** | **Árvores & Grafos** | BFS, DFS, Árvores Binárias de Busca (BST) |
+| **01** | **Fundamentals & Raw Manipulation** | Strings, Arrays, Loops, Accumulators, Edge Cases |
+| **02** | **Two Pointers & Sliding Window** | Reducing $O(n^2)$ brute force to $O(n)$ linear |
+| **03** | **Linear Data Structures** | Hash Maps, Stacks, Queues |
+| **04** | **Recursion & Search** | Binary Search, Divide & Conquer, Pure Recursion |
+| **05** | **Trees & Graphs** | BFS, DFS, Binary Search Trees |
 
 ---
 
-## 📊 Tabela de Desafios & Soluções
+## 📊 Challenge Tracker
 
-| # | Desafio | Nível / Fase | Conceitos TS / Algoritmo | Complexidade | Status | Issue |
+| # | Challenge | Phase | Concepts | Complexity | Status | Issue |
 | :-: | :--- | :---: | :--- | :---: | :---: | :-: |
-| 001 | [Inversão de String](./src/01-fundamentos/001-inverter-string) | 🟢 Fundamentos | Loops, Indexação, Imutabilidade de Strings | $O(n)$ Tempo / $O(n)$ Espaço | ⏳ Em Progresso | [#1](https://github.com/luizGDpulz/algoritmos-e-logica/issues/1) |
+| 001 | [Reverse String](./src/01-fundamentos/001-inverter-string) | 🟢 01-Fundamentals | Loops, Indexing, String Immutability | $O(n)$ Time / $O(n)$ Space | ⏳ In Progress | [#1](https://github.com/luizGDpulz/problem-solving-ts/issues/1) |
 
 ---
 
-## 🚀 Como Executar os Testes
-
-Clone o repositório e instale as dependências:
+## 🚀 Running Tests
 
 ```bash
-# Instalar dependências
+# Install dependencies
 pnpm install
 
-# Rodar os testes em modo watch (interativo)
+# Run tests in interactive watch mode
 pnpm test
 
-# Rodar todos os testes uma única vez
+# Run all tests once
 pnpm test:run
 ```
 
 ---
 
-## 📝 Licença
+## 📝 License
 
-Distribuído sob a licença MIT. Feito por [Luiz Pulz](https://github.com/luizGDpulz).
+Distributed under the MIT License. Built by [Luiz Pulz](https://github.com/luizGDpulz).
