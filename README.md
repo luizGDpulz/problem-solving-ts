@@ -1,58 +1,58 @@
-# 🧠 Problem Solving in TypeScript (`problem-solving-ts`)
+# 🧠 Problem Solving em TypeScript (`problem-solving-ts`)
 
-> **Strengthening Algorithmic Logic & Data Structures**  
-> *"Don't outsource baseline thinking to AI: train raw problem-solving muscle through TDD, Big-O analysis, and pure TypeScript."*
-
----
-
-## 🎯 About the Project
-
-This repository documents my continuous journey in algorithms, problem-solving, and data structures.
-
-Every challenge follows a clear flow:
-1. **TypeScript Concepts & Theory:** Understanding language specifics, typing nuances, and memory behavior.
-2. **Raw Logic (Zero AI code generation):** Working through edge cases and whiteboard/paper breakdown first.
-3. **TDD (Test-Driven Development):** Unit tests with Vitest covering standard inputs and subtle edge cases.
-4. **Complexity Analysis:** Big-O notation for Time and Space.
-5. **Atomic Commits & GitHub Issues:** Each problem is tied to a tracked Issue and clean semantic commits.
+> **Jornada Prática de Lógica, Algoritmos e Estruturas de Dados**  
+> *"Não terceirizar o pensamento básico para a IA: fortalecer o raciocínio na prática com TDD, análise de complexidade Big-O e TypeScript estrito."*
 
 ---
 
-## 🗺️ Progression Roadmap
+## 🎯 Sobre o Repositório
 
-| Phase | Category | Focus |
+Este repositório documenta minha evolução técnica e contínua em resolução de problemas algorítmicos (*problem-solving*) e estruturas de dados usando **TypeScript puro**.
+
+Cada desafio segue um fluxo rigoroso:
+1. **Conceitos de TypeScript & Teoria:** Compreensão das nuances da linguagem, imutabilidade, sistema de tipos estrito (`strict mode`), generics e comportamento de memória.
+2. **Lógica Crua (Zero IA na Solução):** Decomposição do algoritmo no papel/quadro e mapeamento dos cenários de borda (*edge cases*) antes de escrever código.
+3. **TDD (Test-Driven Development):** Testes unitários com Vitest cobrindo entradas padrão, casos vazios, strings/arrays extremos e situações limites.
+4. **Análise de Complexidade:** Avaliação formal de Big-O de Tempo e Espaço.
+5. **Commits Atômicos & Issues:** Cada desafio é acompanhado por uma Issue dedicada e commits semânticos no GitHub.
+
+---
+
+## 🗺️ Trilha de Progressão
+
+| Fase | Categoria | Foco Principal |
 | :---: | :--- | :--- |
-| **01** | **Fundamentals & Raw Manipulation** | Strings, Arrays, Loops, Accumulators, Edge Cases |
-| **02** | **Two Pointers & Sliding Window** | Reducing $O(n^2)$ brute force to $O(n)$ linear |
-| **03** | **Linear Data Structures** | Hash Maps, Stacks, Queues |
-| **04** | **Recursion & Search** | Binary Search, Divide & Conquer, Pure Recursion |
-| **05** | **Trees & Graphs** | BFS, DFS, Binary Search Trees |
+| **01** | **Fundamentos & Manipulação Crua** | Strings, Arrays, Loops, Acumuladores, Imutabilidade, Tipos Primitivos |
+| **02** | **Dois Ponteiros & Janela Deslizante** | *Two Pointers*, *Sliding Window*, Redução de $O(n^2)$ para $O(n)$, Tuplas TS |
+| **03** | **Estruturas de Dados Lineares** | Hash Maps (`Record`, `Map`), Pilhas (*Stacks*), Filas (*Queues*), Generics `<T>` |
+| **04** | **Recursão & Busca** | Busca Binária, Divisão e Conquista, Type Guards |
+| **05** | **Árvores & Grafos** | BFS, DFS, Árvores Binárias de Busca (BST), Discriminated Unions |
 
 ---
 
-## 📊 Challenge Tracker
+## 📊 Tabela de Desafios & Soluções
 
-| # | Challenge | Phase | Concepts | Complexity | Status | Issue |
+| # | Desafio | Fase | Conceitos TS / Algoritmo | Complexidade | Status | Issue |
 | :-: | :--- | :---: | :--- | :---: | :---: | :-: |
-| 001 | [Reverse String](./src/01-fundamentos/001-inverter-string) | 🟢 01-Fundamentals | Loops, Indexing, String Immutability | $O(n)$ Time / $O(n)$ Space | ⏳ In Progress | [#1](https://github.com/luizGDpulz/problem-solving-ts/issues/1) |
+| 001 | [Inversão de String](./src/01-fundamentos/001-inverter-string) | 🟢 01-Fundamentos | Loops, Indexação, Imutabilidade de Strings | $O(n)$ Tempo / $O(n)$ Espaço | ⏳ Em Andamento | [#1](https://github.com/luizGDpulz/problem-solving-ts/issues/1) |
 
 ---
 
-## 🚀 Running Tests
+## 🚀 Como Executar os Testes
 
 ```bash
-# Install dependencies
+# Instalar dependências
 pnpm install
 
-# Run tests in interactive watch mode
+# Rodar os testes em modo watch (interativo)
 pnpm test
 
-# Run all tests once
+# Rodar todos os testes uma única vez
 pnpm test:run
 ```
 
 ---
 
-## 📝 License
+## 📝 Licença
 
-Distributed under the MIT License. Built by [Luiz Pulz](https://github.com/luizGDpulz).
+Distribuído sob a licença MIT. Desenvolvido por [Luiz Pulz](https://github.com/luizGDpulz).
