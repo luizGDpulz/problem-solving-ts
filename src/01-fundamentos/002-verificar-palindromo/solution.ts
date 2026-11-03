@@ -5,7 +5,15 @@
  * @returns true se for palindromo, false caso contrario
  */
 export function ePalindromo(texto: string): boolean {
-  // TODO: Sua logica entra aqui!
-  // Dica: Use dois ponteiros (esquerda e direita) e early return se forem diferentes.
-  return false;
+  let esquerda = 0;
+  let direita = texto.length - 1;
+
+  while (esquerda < direita) {
+    if (texto[direita] !== texto[esquerda]) {
+      return false;
+    }
+    esquerda++;
+    direita--;
+  }
+  return true;
 }
