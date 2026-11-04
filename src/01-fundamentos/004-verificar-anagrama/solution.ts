@@ -6,8 +6,18 @@
  * @returns true se forem anagramas, false caso contrario
  */
 export function eAnagrama(s: string, t: string): boolean {
-  // TODO: Sua logica entra aqui!
-  // Dica: Se os tamanhos forem diferentes, ja retorne false.
-  // Use a frequencia de caracteres para validar se todas as contagens batem.
-  return false;
+  if (s.length !== t.length) return false; // Se os tamanhos forem diferentes, ja retorne false.
+
+  const contagem: Record<string, number> = {};
+
+  for (const char of s) {
+    contagem[char] = (contagem[char] ?? 0) + 1;
+  }
+
+  for (const char of t) {
+    if (!contagem[char]) return false;
+    contagem[char]--
+  }
+
+  return true;
 }
