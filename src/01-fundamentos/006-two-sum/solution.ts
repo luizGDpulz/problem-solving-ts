@@ -6,8 +6,17 @@
  * @returns Tupla com os dois indices encontrados, ou null se nao houver par
  */
 export function twoSum(numeros: number[], alvo: number): [number, number] | null {
-  // TODO: Sua logica entra aqui!
-  // Dica: Use um Hash Map guardando { [numero]: indice }.
-  // Para cada numero, procure se (alvo - numero) ja existe no mapa.
+  const mapaIndices: Record<number, number> = {};
+
+  for (let i = 0; i < numeros.length; i++) {
+    const complemento = alvo - numeros[i];
+
+    if (mapaIndices[complemento] !== undefined) {
+      return [mapaIndices[complemento], i];
+    }
+    
+    mapaIndices[numeros[i]] = i;
+  }
+
   return null;
 }
